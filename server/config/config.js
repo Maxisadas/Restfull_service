@@ -19,3 +19,11 @@ if (process.env.NODE_ENV === 'dev') {
 }
 
 process.env.urlDB = urlDB;
+
+// Vencimiento del token
+
+process.env.CADUCIDAD_TOKEN = 60 * 60 * 24 * 30;
+
+//SEED de autenticacion
+
+process.env.SEED_AUTH = process.env.SEED_AUTH || 'secret_token_maxi';
