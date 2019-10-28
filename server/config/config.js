@@ -30,4 +30,4 @@ process.env.SEED_AUTH = process.env.SEED_AUTH || 'secret_token_maxi';
 
 //GOOGLE CLIENT ID
 
-process.env.CLIENT_ID = process.env.CLIENT_ID || "1000807048414-cl76cdtmqpf3a0l4uoln7o082c0f3e6g.apps.googleusercontent.com";
+process.env.CLIENT_ID = process.env.CLIENT_ID || "1000807048414-nj1pk2vop4thr3e175rh2fb3hmkargpv.apps.googleusercontent.com";
